@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectricGamesApi/Docs</title>
+    <link rel="icon" href="./images/spillpng.png">
+    <link rel="stylesheet" href="./css/Test.css">
+    <link rel="stylesheet" href="./css/dropdown.css">
+</head>
+
+<body class="body">
+
+        <div id="background" class="h1_div" alt="Landscape photo of a arcade hall with one arcade machine turned on the left with pac man and three arcade machines to the right turned off">
+                <h1 class="h1">ElectricGames Api</h1>
+            </div>
+                
+                <section class="menu flex margin">
+                    <article class="dropdown">
+                        <button class="dropbtn">Dropdown</button>
+                        <div class="dropdown-content">
+                                <a class="text-white" href="index.html">
+                                    1. Go Back
+                                </a>
+                            <a class="text-white" href="about.html">
+                                2. About
+                            </a>
+                        </div>
+                    </article>
+                </section>
+    <h1 class="h1">Documentation</h1>
+
+    <h2 class="games-h1">Introduction</h2>
+    <p class="text" class="text">
+        This documentation aims to assist you with familiarizing yourself with the Electric Games Api. Here you can see
+        what quieries that
+        are avaialable and how to use them.
+    </p>
+    
+
+    <h3 class="games-h1">BaseURLS</h3>
+    <p class="text" class="text">
+        Base URLS accommodate the information from all available resources within the API
+    </p>
+<div>
+    <p class="text">GET <a class="link" href="https://localhost:7226/game">https://localhost:7226/game</a></p>
+    <p class="text">GET <a class="link" href="https://localhost:7226/consoles">https://localhost:7226/consoles</a></p>
+    <p class="text">GET <a class="link" href="https://localhost:7226/gameCharacter">https://localhost:7226/gameCharacter</a></p>
+
+    
+    <h3 class="games-h1">Games schema</h3>
+    <p class="text" class="text"> "Games search by id" <a class="link" href="https://localhost:7226/Game/">https://localhost:7226/Game/{type the {id} here}</a>
+    </p>
+    <p class="text"> "Games search by name" <a class="link"
+            href="https://localhost:7226/Game/GetByName?nameFromDb=">https://localhost:7226/Game/GetByName?nameFromDb={type
+            game {name} here}</a></p>
+    <p class="text">"Game posting" "tips you can post from swagger" <a class="link"
+            href="https://localhost:7226/game">https://localhost:7226/game</a> </p>
+    <p class="text">"Games Update" "tips you can update from swagger" <a class="link"
+            href="https://localhost:7226/Game">https://localhost:7226/Game</a></p>
+    <p class="text">"Games Delete" "tips you can delete it from swagger" <a class="link"
+            href="https://localhost:7226/Game/">https://localhost:7226/Game/</a></p>
+
+
+    <h3 class="games-h1">Console schema</h3>
+    <p class="text"> "Console search by id" <a class="link" href="https://localhost:7226/consoles/">https://localhost:7226/consoles/{type the {id}
+          for console here}</a></p>
+    <p class="text"> "Console search by name" <a class="link"
+            href="https://localhost:7226/consoles/GetByName?nameFromDb=">https://localhost:7226/consoles/GetByName?nameFromDb={type
+            console {name} here}</a></p>
+    <p class="text">"Console posting" "tips you can post from swagger" <a class="link"
+            href="https://localhost:7226/consoles">https://localhost:7226/consoles</a> </p>
+    <p class="text">"Console Update" "tips you can update from swagger" <a class="link"
+            href="https://localhost:7226/consoles">https://localhost:7226/consoles</a></p>
+    <p class="text">" Console Delete" "tips you can delete it from swagger" <a class="link"
+            href="https://localhost:7226/consoles/">https://localhost:7226/consoles/</a></p>
+
+
+    <h3 class="games-h1">Character schema</h3>
+    <p class="text"> "Game character search by id" <a class="link"
+            href="https://localhost:7226/gameCharacter/">https://localhost:7226/consoles/{type the {id} for game character here}</a></p>
+    <p class="text"> "Game character search by name" <a class="link"
+            href="https://localhost:7226/gameCharacter/GetByName?nameFromDb=">https://localhost:7226/consoles/GetByName?nameFromDb={type
+            game character {name} here}</a></p>
+    <p class="text">"Game character posting" "tips you can post from swagger" <a class="link"
+            href="https://localhost:7226/gameCharacter/">https://localhost:7226/gameCharacter/</a> </p>
+    <p class="text">"Game character Update" "tips you can update from swagger" <a class="link"
+            href="https://localhost:7226/gameCharacter/">https://localhost:7226/gameCharacter/</a></p>
+    <p class="text">" Game character Delete" "tips you can delete it from swagger" <a class="link"
+            href="https://localhost:7226/consoles/">https://localhost:7226/gameCharacter/</a></p>
+    
+
+</div>
+
+
+</body>
+
+</html>
